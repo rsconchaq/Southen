@@ -1,0 +1,14 @@
+C:\EXAMEN\Southern\Southern.DataAccess\bin\Debug\Southern.DataAccess.dll
+C:\EXAMEN\Southern\Southern.DataAccess\bin\Debug\Southern.DataAccess.pdb
+C:\EXAMEN\Southern\Southern.DataAccess\bin\Debug\Southern.DataAccess.xml
+C:\EXAMEN\Southern\Southern.DataAccess\bin\Debug\Southern.DataContracts.dll
+C:\EXAMEN\Southern\Southern.DataAccess\bin\Debug\Southern.DataContracts.pdb
+C:\EXAMEN\Southern\Southern.DataAccess\bin\Debug\Southern.DataContracts.xml
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.Resources.resources
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.vbproj.GenerateResource.Cache
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.dll
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.xml
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.pdb
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.vbprojAssemblyReference.cache
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.vbproj.CoreCompileInputs.cache
+C:\EXAMEN\Southern\Southern.DataAccess\obj\Debug\Southern.DataAccess.vbproj.CopyComplete

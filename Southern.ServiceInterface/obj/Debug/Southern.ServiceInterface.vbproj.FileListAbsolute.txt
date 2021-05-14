@@ -1,0 +1,14 @@
+C:\EXAMEN\Southern\Southern.ServiceInterface\bin\Debug\Southern.ServiceInterface.dll
+C:\EXAMEN\Southern\Southern.ServiceInterface\bin\Debug\Southern.ServiceInterface.pdb
+C:\EXAMEN\Southern\Southern.ServiceInterface\bin\Debug\Southern.ServiceInterface.xml
+C:\EXAMEN\Southern\Southern.ServiceInterface\bin\Debug\Southern.DataContracts.dll
+C:\EXAMEN\Southern\Southern.ServiceInterface\bin\Debug\Southern.DataContracts.pdb
+C:\EXAMEN\Southern\Southern.ServiceInterface\bin\Debug\Southern.DataContracts.xml
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.Resources.resources
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.vbproj.GenerateResource.Cache
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.dll
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.xml
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.pdb
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.vbprojAssemblyReference.cache
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.vbproj.CoreCompileInputs.cache
+C:\EXAMEN\Southern\Southern.ServiceInterface\obj\Debug\Southern.ServiceInterface.vbproj.CopyComplete

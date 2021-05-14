@@ -1,0 +1,10 @@
+C:\EXAMEN\Southern\Southern.DataContracts\bin\Debug\Southern.DataContracts.dll
+C:\EXAMEN\Southern\Southern.DataContracts\bin\Debug\Southern.DataContracts.pdb
+C:\EXAMEN\Southern\Southern.DataContracts\bin\Debug\Southern.DataContracts.xml
+C:\EXAMEN\Southern\Southern.DataContracts\obj\Debug\Southern.DataContracts.Resources.resources
+C:\EXAMEN\Southern\Southern.DataContracts\obj\Debug\Southern.DataContracts.vbproj.GenerateResource.Cache
+C:\EXAMEN\Southern\Southern.DataContracts\obj\Debug\Southern.DataContracts.dll
+C:\EXAMEN\Southern\Southern.DataContracts\obj\Debug\Southern.DataContracts.xml
+C:\EXAMEN\Southern\Southern.DataContracts\obj\Debug\Southern.DataContracts.pdb
+C:\EXAMEN\Southern\Southern.DataContracts\obj\Debug\Southern.DataContracts.vbprojAssemblyReference.cache
+C:\EXAMEN\Southern\Southern.DataContracts\obj\Debug\Southern.DataContracts.vbproj.CoreCompileInputs.cache

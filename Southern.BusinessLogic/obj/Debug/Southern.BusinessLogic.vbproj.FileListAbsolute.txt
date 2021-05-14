@@ -1,0 +1,17 @@
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.BusinessLogic.dll
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.BusinessLogic.pdb
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.BusinessLogic.xml
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.DataAccess.dll
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.DataContracts.dll
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.DataAccess.pdb
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.DataAccess.xml
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.DataContracts.pdb
+C:\EXAMEN\Southern\Southern.BusinessLogic\bin\Debug\Southern.DataContracts.xml
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.Resources.resources
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.vbproj.GenerateResource.Cache
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.dll
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.xml
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.pdb
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.vbprojAssemblyReference.cache
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.vbproj.CoreCompileInputs.cache
+C:\EXAMEN\Southern\Southern.BusinessLogic\obj\Debug\Southern.BusinessLogic.vbproj.CopyComplete
