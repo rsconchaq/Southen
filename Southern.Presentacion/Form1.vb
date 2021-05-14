@@ -47,6 +47,7 @@ Public Class Form1
             frm.txtNombre.Text = dataListado.CurrentRow.Cells(1).Value.ToString()
             frm.txtApellido.Text = dataListado.CurrentRow.Cells(2).Value.ToString()
             frm.txtNumDocumento.Text = dataListado.CurrentRow.Cells(3).Value.ToString()
+            frm.lbldni.Text = dataListado.CurrentRow.Cells(3).Value.ToString()
             Dim indexTDocumento As String
             Dim indexEstado As String
             If dataListado.CurrentRow.Cells(4).Value.ToString() = "DNI" Then

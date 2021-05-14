@@ -24,6 +24,14 @@ Public Class PersonaDetalle
             MessageBox.Show("Ingrese Numero de documento")
             txtNumDocumento.BackColor = Color.Yellow
             txtNumDocumento.Focus()
+        ElseIf cbTipoDocumento.SelectedIndex = 0 And (txtNumDocumento.Text.Length < 8 Or txtNumDocumento.Text.Length > 8) Then
+            MessageBox.Show("Ingrese Numero de documento DNI 8 digitos")
+            txtNumDocumento.BackColor = Color.Yellow
+            txtNumDocumento.Focus()
+        ElseIf cbTipoDocumento.SelectedIndex = 1 And (txtNumDocumento.Text.Length < 11 Or txtNumDocumento.Text.Length > 20) Then
+            MessageBox.Show("Ingrese Numero de documento DNI 11-20 digitos")
+            txtNumDocumento.BackColor = Color.Yellow
+            txtNumDocumento.Focus()
         ElseIf mtxtEdad.Text = String.Empty Then
             MessageBox.Show("Ingrese Numero de Edad")
             mtxtEdad.BackColor = Color.Yellow
@@ -35,31 +43,54 @@ Public Class PersonaDetalle
         Else
             txtNumDocumento.BackColor = Color.White
 
-            If client.ConsultaDocumento(txtNumDocumento.Text) = True Then
+            If (txtIdPersona.Text = String.Empty And (client.ConsultaDocumento(txtNumDocumento.Text) = True)) Then
                 MessageBox.Show("Documento ya registrado")
             Else
 
                 Dim oPersona As New Persona
-                With oPersona
-                    .Nombre = txtApellido.Text
-                    .Apellido = txtApellido.Text
-                    .Documento = txtNumDocumento.Text
-                    .TipoDocumento = cbTipoDocumento.SelectedItem
-                    .Estado = cbEstado.SelectedItem
-                    .Edad = mtxtEdad.Text
-                End With
-                respuesta = client.RegistrarPersona(oPersona)
-                MessageBox.Show("Se Guardo Correctamente")
-                Me.Close()
-                Form1.Visible = True
+
+                If txtIdPersona.Text = String.Empty Then
+
+                    With oPersona
+                        .Nombre = txtApellido.Text
+                        .Apellido = txtApellido.Text
+                        .Documento = txtNumDocumento.Text
+                        .TipoDocumento = cbTipoDocumento.SelectedItem
+                        .Estado = cbEstado.SelectedItem
+                        .Edad = mtxtEdad.Text
+                    End With
+                    respuesta = client.RegistrarPersona(oPersona)
+                    MessageBox.Show("Se Guardo Correctamente")
+                    Me.Close()
+                    Form1.Visible = True
+
+                Else
+
+                    If ((lbldni.Text <> txtNumDocumento.Text) And client.ConsultaDocumento(txtNumDocumento.Text) = True) Then
+                        MessageBox.Show("Documento ya registrado")
+                    Else
+                        With oPersona
+                            .IdPersona = txtIdPersona.Text
+                            .Nombre = txtApellido.Text
+                            .Apellido = txtApellido.Text
+                            .Documento = txtNumDocumento.Text
+                            .TipoDocumento = cbTipoDocumento.SelectedItem
+                            .Estado = cbEstado.SelectedItem
+                            .Edad = mtxtEdad.Text
+                        End With
+                        respuesta = client.ActualizarPersona(oPersona)
+                        MessageBox.Show("Se Actualizo Correctamente")
+                        Me.Close()
+                        Form1.Visible = True
+                    End If
+
+                End If
 
                 Dim frm As New Form1
                 frm.dataListado.DataSource = client.MostrarPersona
                 frm.dataListado.Refresh()
 
             End If
-
-
 
         End If
     End Sub

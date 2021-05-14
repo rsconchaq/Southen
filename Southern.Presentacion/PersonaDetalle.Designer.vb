@@ -25,8 +25,8 @@ Partial Class PersonaDetalle
         Me.menuStrip = New System.Windows.Forms.MenuStrip()
         Me.Grabar = New System.Windows.Forms.ToolStripMenuItem()
         Me.Eliminar = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Salir = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExportarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Salir = New System.Windows.Forms.ToolStripMenuItem()
         Me.tabControl1 = New System.Windows.Forms.TabControl()
         Me.tabPage2 = New System.Windows.Forms.TabPage()
         Me.groupBox1 = New System.Windows.Forms.GroupBox()
@@ -43,6 +43,7 @@ Partial Class PersonaDetalle
         Me.txtIdPersona = New System.Windows.Forms.TextBox()
         Me.label5 = New System.Windows.Forms.Label()
         Me.label3 = New System.Windows.Forms.Label()
+        Me.lbldni = New System.Windows.Forms.Label()
         Me.menuStrip.SuspendLayout()
         Me.tabControl1.SuspendLayout()
         Me.tabPage2.SuspendLayout()
@@ -70,17 +71,17 @@ Partial Class PersonaDetalle
         Me.Eliminar.Size = New System.Drawing.Size(62, 20)
         Me.Eliminar.Text = "Eliminar"
         '
-        'Salir
-        '
-        Me.Salir.Name = "Salir"
-        Me.Salir.Size = New System.Drawing.Size(41, 20)
-        Me.Salir.Text = "Salir"
-        '
         'ExportarToolStripMenuItem
         '
         Me.ExportarToolStripMenuItem.Name = "ExportarToolStripMenuItem"
         Me.ExportarToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
         Me.ExportarToolStripMenuItem.Text = "Exportar"
+        '
+        'Salir
+        '
+        Me.Salir.Name = "Salir"
+        Me.Salir.Size = New System.Drawing.Size(41, 20)
+        Me.Salir.Text = "Salir"
         '
         'tabControl1
         '
@@ -88,7 +89,7 @@ Partial Class PersonaDetalle
         Me.tabControl1.Location = New System.Drawing.Point(12, 25)
         Me.tabControl1.Name = "tabControl1"
         Me.tabControl1.SelectedIndex = 0
-        Me.tabControl1.Size = New System.Drawing.Size(556, 381)
+        Me.tabControl1.Size = New System.Drawing.Size(482, 381)
         Me.tabControl1.TabIndex = 9
         '
         'tabPage2
@@ -97,7 +98,7 @@ Partial Class PersonaDetalle
         Me.tabPage2.Location = New System.Drawing.Point(4, 22)
         Me.tabPage2.Name = "tabPage2"
         Me.tabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.tabPage2.Size = New System.Drawing.Size(548, 355)
+        Me.tabPage2.Size = New System.Drawing.Size(474, 355)
         Me.tabPage2.TabIndex = 1
         Me.tabPage2.Text = "Mantenimiento"
         Me.tabPage2.UseVisualStyleBackColor = True
@@ -235,12 +236,22 @@ Partial Class PersonaDetalle
         Me.label3.TabIndex = 2
         Me.label3.Text = "Código:"
         '
+        'lbldni
+        '
+        Me.lbldni.AutoSize = True
+        Me.lbldni.ForeColor = System.Drawing.SystemColors.Control
+        Me.lbldni.Location = New System.Drawing.Point(536, 79)
+        Me.lbldni.Name = "lbldni"
+        Me.lbldni.Size = New System.Drawing.Size(0, 13)
+        Me.lbldni.TabIndex = 10
+        '
         'PersonaDetalle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(587, 333)
         Me.ControlBox = False
+        Me.Controls.Add(Me.lbldni)
         Me.Controls.Add(Me.tabControl1)
         Me.Controls.Add(Me.menuStrip)
         Me.Name = "PersonaDetalle"
@@ -278,4 +289,5 @@ Partial Class PersonaDetalle
     Private WithEvents label5 As Label
     Private WithEvents label3 As Label
     Friend WithEvents ExportarToolStripMenuItem As ToolStripMenuItem
+    Public WithEvents lbldni As Label
 End Class
